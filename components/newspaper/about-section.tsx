@@ -107,7 +107,7 @@ export function AboutSection() {
               </p>
             </div>
 
-            <p className="font-serif text-2xl leading-relaxed mb-8">
+            <p className="font-serif text-2xl leading-relaxed mb-8 text-card-foreground">
               {t.paragraph1}
             </p>
             <p className="text-card-foreground/70 mb-6">
@@ -121,7 +121,7 @@ export function AboutSection() {
               <p className="font-mono text-xs uppercase tracking-widest text-card-foreground/50 mb-2">
                 {t.signatureLabel}
               </p>
-              <p className="font-serif text-2xl italic">
+              <p className="font-serif text-2xl italic text-card-foreground">
                 Matheus Malta
               </p>
               <p className="font-mono text-xs text-primary uppercase tracking-widest mt-1">
@@ -153,7 +153,7 @@ export function AboutSection() {
                   <span className="font-mono text-xs uppercase tracking-widest text-card-foreground/50">
                     {item.label}
                   </span>
-                  <span className="font-sans text-sm font-medium">
+                  <span className="font-sans text-sm font-medium text-card-foreground">
                     {item.value}
                   </span>
                 </div>
