@@ -84,7 +84,7 @@ export function AboutSection() {
                 <motion.div animate={{ scale: imgHovered ? 1.05 : 1 }}>
                   <Image
                     src="/images/atletico.png"
-                    alt="Davi Nunes"
+                    alt="Matheus Malta"
                     width={320}
                     height={400}
                     className="w-full h-auto object-cover grayscale contrast-125"
@@ -122,7 +122,7 @@ export function AboutSection() {
                 {t.signatureLabel}
               </p>
               <p className="font-serif text-2xl italic">
-                Davi Nunes
+                Matheus Malta
               </p>
               <p className="font-mono text-xs text-primary uppercase tracking-widest mt-1">
                 {t.role}

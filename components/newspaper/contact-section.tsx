@@ -54,26 +54,26 @@ export function ContactSection() {
     {
       icon: Mail,
       label: "Email",
-      value: "matheus@malta.dev",
-      href: "mailto:matheus@malta.dev",
+      value: "matheushtms04@gmail.com",
+      href: "mailto:matheushtms04@gmail.com",
     },
     {
       icon: Phone,
       label: lang === "pt" ? "Telefone" : "Phone",
-      value: "+55 (81) 99999-9999",
-      href: "tel:+5581999999999",
+      value: "+55 (31) 97104-6149",
+      href: "tel:+5531971046149",
     },
     {
       icon: MapPin,
       label: lang === "pt" ? "Localização" : "Location",
-      value: lang === "pt" ? "Recife, PE - Brasil" : "Recife, PE - Brazil",
+      value: lang === "pt" ? "Belo Horizonte, MG - Brasil" : "Belo Horizonte, MG - Brazil",
       href: "#",
     },
   ]
 
   const socials = [
-    { icon: Github, label: "GitHub", value: "github.com/matheusmalta", href: "#" },
-    { icon: Linkedin, label: "LinkedIn", value: "linkedin.com/in/matheusmalta", href: "#" },
+    { icon: Github, label: "GitHub", value: "github.com/matheushtms", href: "https://github.com/matheushtms" },
+    { icon: Linkedin, label: "LinkedIn", value: "linkedin.com/in/matheus-malta-a39b66255", href: "https://linkedin.com/in/matheus-malta-a39b66255" },
   ]
 
   return (
