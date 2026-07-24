@@ -104,6 +104,7 @@ import { useRef } from "react"
 import { Download, FileText } from "lucide-react"
 import { useLanguage } from "@/context/LanguageContext"
 import { texts } from "@/i18n/texts"
+import { withBasePath } from "@/lib/utils"
 
 export function DownloadSection() {
   const { lang } = useLanguage()
@@ -180,7 +181,7 @@ export function DownloadSection() {
             className="flex flex-col sm:flex-row gap-4"
           >
             <motion.a
-              href="/cv.pdf"
+              href={withBasePath("/cv.pdf")}
               download
               className="group relative flex items-center gap-4 bg-primary text-primary-foreground px-8 py-5 font-mono text-xs uppercase tracking-widest overflow-hidden"
             >
@@ -189,7 +190,7 @@ export function DownloadSection() {
             </motion.a>
 
             <motion.a
-              href="/cv.pdf"
+              href={withBasePath("/cv.pdf")}
               target="_blank"
               className="group relative flex items-center gap-4 border-2 border-foreground text-foreground px-8 py-5 font-mono text-xs uppercase tracking-widest overflow-hidden"
             >

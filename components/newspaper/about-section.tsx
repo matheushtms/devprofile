@@ -5,6 +5,7 @@ import { useRef, useState } from "react"
 import Image from "next/image"
 import { useLanguage } from "@/context/LanguageContext"
 import { texts } from "@/i18n/texts"
+import { withBasePath } from "@/lib/utils"
 
 function TiltCard({ children, className }: { children: React.ReactNode; className?: string }) {
   const ref = useRef<HTMLDivElement>(null)
@@ -83,7 +84,7 @@ export function AboutSection() {
               <div className="relative overflow-hidden border-2 border-card-foreground/20 max-w-xs">
                 <motion.div animate={{ scale: imgHovered ? 1.05 : 1 }}>
                   <Image
-                    src="/images/profile.jpg"
+                    src={withBasePath("/images/profile.jpg")}
                     alt="Matheus Malta"
                     width={320}
                     height={400}

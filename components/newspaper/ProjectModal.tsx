@@ -5,6 +5,7 @@ import { X, ExternalLink, Github } from "lucide-react"
 import Image from "next/image"
 import { texts } from "@/i18n/texts"
 import { useLanguage } from "@/context/LanguageContext"
+import { withBasePath } from "@/lib/utils"
 
 type Technology = {
   name: string
@@ -78,7 +79,7 @@ export default function ProjectModal({ project, onClose }: Props) {
             {/* Imagem / GIF do projeto */}
             <div className="relative w-full h-56 md:h-72 bg-card-foreground/5 overflow-hidden">
               <Image
-                src={project.image}
+                src={withBasePath(project.image)}
                 alt={project.title}
                 fill
                 className="object-cover"
