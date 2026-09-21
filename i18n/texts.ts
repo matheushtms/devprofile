@@ -12,10 +12,10 @@ export const texts = {
       photoCredit: "Foto: Arquivo Pessoal / 2026",
 
       paragraph1:
-        "Sou estudante de Engenharia de Software (PUC Minas, 5º período) apaixonado por construir produtos full-stack reais — do modelo de dados ao deploy. Hoje alio essa formação à experiência prática como responsável pela estrutura de TI e suporte da Rede Decisão, em Belo Horizonte.",
+        "Sou estudante de Engenharia de Software (PUC Minas, 5º período) apaixonado por construir produtos full-stack reais — do modelo de dados ao deploy. Sou sócio da Café Labs e, hoje, também sou responsável pela estrutura de TI e pelo suporte da escola Rede Decisão, em Belo Horizonte.",
 
       paragraph2:
-        "Trabalho com JavaScript/TypeScript, Python e Java em projetos que vão de um SaaS multi-tenant em piloto com cliente real a uma análise de rede de colaboração open-source com grafos implementados do zero. Incorporo ferramentas de IA agentic (Claude Code) ao ciclo de desenvolvimento.",
+        "Trabalho com JavaScript/TypeScript, Python e Java em projetos que vão de um SaaS multi-tenant em piloto com cliente real a uma análise de rede de colaboração open-source com grafos implementados do zero. Na Café Labs entrego também apps Flutter e sistemas de gestão para clientes reais.",
 
       paragraph3:
         "Antes de migrar pra tecnologia, atuei com marketing digital e comunicação para redes sociais — uma base que ainda uso pra pensar produto do ponto de vista de quem vai usar.",
@@ -53,10 +53,10 @@ export const texts = {
       photoCredit: "Photo: Personal Archive / 2026",
 
       paragraph1:
-        "I'm a Software Engineering student (PUC Minas, 5th semester) passionate about building real full-stack products — from data model to deploy. I currently pair that with hands-on experience as the person responsible for the IT structure and support of Rede Decisão, in Belo Horizonte.",
+        "I'm a Software Engineering student (PUC Minas, 5th semester) passionate about building real full-stack products — from data model to deploy. I'm a partner at Café Labs and also responsible for the IT structure and support of the Rede Decisão school, in Belo Horizonte.",
 
       paragraph2:
-        "I work with JavaScript/TypeScript, Python and Java on projects ranging from a multi-tenant SaaS in pilot with a real client to an open-source collaboration network analysis with graphs implemented from scratch. I bring agentic AI tools (Claude Code) into my development cycle.",
+        "I work with JavaScript/TypeScript, Python and Java on projects ranging from a multi-tenant SaaS in pilot with a real client to an open-source collaboration network analysis with graphs implemented from scratch. At Café Labs I also ship Flutter apps and management systems for real clients.",
 
       paragraph3:
         "Before moving into tech, I worked in digital marketing and social media communication — a background I still draw on to think about product from the user's point of view.",
@@ -206,8 +206,17 @@ experience: {
         company: "Rede Decisão",
         location: "Belo Horizonte, MG",
         description:
-          "Responsável por toda a estrutura de TI e suporte da rede.",
+          "Responsável pela estrutura de TI da escola: infraestrutura de rede, equipamentos e sistemas, além do suporte técnico contínuo aos usuários.",
         tags: ["Infraestrutura", "Suporte", "Redes"],
+      },
+      {
+        period: "Jul 2026 - Atual",
+        role: "Sócio e Desenvolvedor",
+        company: "Café Labs",
+        location: "Belo Horizonte, MG",
+        description:
+          "Sócio de empresa de software: desenvolvimento full-stack e mobile de produtos próprios e de clientes — Box+, Dindin, Laudo, Patotive e Agenda Barbearia.",
+        tags: ["Full-stack", "Flutter", "Next.js", "Firebase"],
       },
       {
         period: "Jan 2024 - Ago 2024",
@@ -227,8 +236,17 @@ experience: {
         company: "Rede Decisão",
         location: "Belo Horizonte, Brazil",
         description:
-          "Responsible for the entire IT structure and support of the network.",
+          "Responsible for the school's IT structure: network infrastructure, equipment and systems, plus ongoing technical support for users.",
         tags: ["Infrastructure", "Support", "Networking"],
+      },
+      {
+        period: "Jul 2026 - Present",
+        role: "Partner and Developer",
+        company: "Café Labs",
+        location: "Belo Horizonte, Brazil",
+        description:
+          "Partner at a software company: full-stack and mobile development of in-house and client products — Box+, Dindin, Laudo, Patotive and Agenda Barbearia.",
+        tags: ["Full-stack", "Flutter", "Next.js", "Firebase"],
       },
       {
         period: "Jan 2024 - Aug 2024",
@@ -448,6 +466,102 @@ footer: {
           link: "#",
           github: "#",
         },
+        {
+          id: "PJ-006",
+          title: "Box+",
+          subtitle: "Gestão de Oficina Mecânica",
+          description:
+            "Sistema de gestão para uma oficina mecânica real: agendamento, etapas do carro, estoque, faturamento e portal do cliente.",
+          detailedDescription:
+            "Monorepo com API Node/TypeScript (Fastify + PostgreSQL), painel web em Next.js e apps Flutter. Cobre agendamento, quadro de etapas do carro, histórico de serviço com peças usadas, estoque, manutenção preventiva, faturamento e portal do cliente com notificação quando o carro fica pronto.",
+          image: "/images/giphy.gif",
+          tags: ["Next.js", "Node.js", "PostgreSQL", "Flutter"],
+          technologies: [
+            { name: "Next.js", description: "Next.js" },
+            { name: "Node.js", description: "Node.js" },
+            { name: "PostgreSQL", description: "PostgreSQL" },
+            { name: "Flutter", description: "Flutter" },
+          ],
+          year: "2026",
+          link: "#",
+          github: "#",
+        },
+        {
+          id: "PJ-007",
+          title: "Café Labs Admin",
+          subtitle: "Hub de Gestão Interna",
+          description:
+            "Hub interno da Café Labs: clientes e financeiro da empresa em um só sistema.",
+          detailedDescription:
+            "SPA em React + Vite + TypeScript sobre Firebase (Auth com Google, Firestore e Security Rules), com exportação de leads em PDF e regras de acesso por usuário. Em produção, usado no dia a dia da empresa.",
+          image: "/images/giphy.gif",
+          tags: ["React", "TypeScript", "Firebase"],
+          technologies: [
+            { name: "React", description: "React" },
+            { name: "TypeScript", description: "TypeScript" },
+            { name: "Firebase", description: "Firebase" },
+          ],
+          year: "2026",
+          link: "#",
+          github: "#",
+        },
+        {
+          id: "PJ-008",
+          title: "Dindin",
+          subtitle: "Finanças por Envelopes",
+          description:
+            "App de finanças pessoais organizado em caixinhas de gasto e de poupança.",
+          detailedDescription:
+            "A receita entra como saldo e é alocada em caixinhas de gasto (com limite mensal) ou de poupança (com meta), com transferência entre elas. Flutter multiplataforma (Web, Android e Windows) com Firebase, interface em português e inglês. Landing em dindin.cafelabs.net.",
+          image: "/images/giphy.gif",
+          tags: ["Flutter", "Riverpod", "Firebase"],
+          technologies: [
+            { name: "Flutter", description: "Flutter" },
+            { name: "Riverpod", description: "Riverpod" },
+            { name: "Firebase", description: "Firebase" },
+          ],
+          year: "2026",
+          link: "#",
+          github: "#",
+        },
+        {
+          id: "PJ-009",
+          title: "Laudo",
+          subtitle: "App de Vistorias",
+          description:
+            "App de vistorias com narração por voz transcrita no dispositivo, fotos e laudo em PDF.",
+          detailedDescription:
+            "App Flutter (mobile + web) para uma arquiteta: ela narra o que vê por item/ambiente e o app transcreve a voz 100% no dispositivo, anexa fotos e gera o laudo em PDF. Funciona offline em campo e sincroniza quando a conexão volta.",
+          image: "/images/giphy.gif",
+          tags: ["Flutter", "Firebase", "Offline-first"],
+          technologies: [
+            { name: "Flutter", description: "Flutter" },
+            { name: "Firebase", description: "Firebase" },
+            { name: "Offline-first", description: "Offline-first" },
+          ],
+          year: "2026",
+          link: "#",
+          github: "#",
+        },
+        {
+          id: "PJ-010",
+          title: "Patotive",
+          subtitle: "Grupos de Desconto no WhatsApp",
+          description:
+            "Diretório e operação de grupos exclusivos de desconto no WhatsApp, por categoria de produto.",
+          detailedDescription:
+            "Next.js (web + PWA) com Firebase (Auth, Firestore, Hosting), no ar em patotive.vercel.app. v1 com esportes e livros; integração com marketplace de afiliados em andamento.",
+          image: "/images/giphy.gif",
+          tags: ["Next.js", "PWA", "Firebase"],
+          technologies: [
+            { name: "Next.js", description: "Next.js" },
+            { name: "PWA", description: "PWA" },
+            { name: "Firebase", description: "Firebase" },
+          ],
+          year: "2026",
+          link: "#",
+          github: "#",
+        },
       ],
       en: [
         {
@@ -543,6 +657,102 @@ footer: {
           technologies: [
             { name: "Next.js", description: "Front-end and back-end" },
             { name: "Supabase", description: "Database and authentication" },
+          ],
+          year: "2026",
+          link: "#",
+          github: "#",
+        },
+        {
+          id: "PJ-006",
+          title: "Box+",
+          subtitle: "Management for an Auto Repair Shop",
+          description:
+            "Management system for a real auto repair shop: scheduling, car stages, inventory, billing and a customer portal.",
+          detailedDescription:
+            "Monorepo with a Node/TypeScript API (Fastify + PostgreSQL), a Next.js web dashboard and Flutter apps. Covers scheduling, car-stage board, service history with parts used, inventory, preventive maintenance, billing and a customer portal that notifies when the car is ready.",
+          image: "/images/giphy.gif",
+          tags: ["Next.js", "Node.js", "PostgreSQL", "Flutter"],
+          technologies: [
+            { name: "Next.js", description: "Next.js" },
+            { name: "Node.js", description: "Node.js" },
+            { name: "PostgreSQL", description: "PostgreSQL" },
+            { name: "Flutter", description: "Flutter" },
+          ],
+          year: "2026",
+          link: "#",
+          github: "#",
+        },
+        {
+          id: "PJ-007",
+          title: "Café Labs Admin",
+          subtitle: "Internal Management Hub",
+          description:
+            "Café Labs' internal hub: the company's clients and finances in a single system.",
+          detailedDescription:
+            "React + Vite + TypeScript SPA on Firebase (Google Auth, Firestore and Security Rules), with lead PDF export and per-user access rules. In production, used day to day at the company.",
+          image: "/images/giphy.gif",
+          tags: ["React", "TypeScript", "Firebase"],
+          technologies: [
+            { name: "React", description: "React" },
+            { name: "TypeScript", description: "TypeScript" },
+            { name: "Firebase", description: "Firebase" },
+          ],
+          year: "2026",
+          link: "#",
+          github: "#",
+        },
+        {
+          id: "PJ-008",
+          title: "Dindin",
+          subtitle: "Envelope-based Personal Finance",
+          description:
+            "Personal finance app organized around spending and saving envelopes.",
+          detailedDescription:
+            "Income arrives as balance and is allocated to spending envelopes (with a monthly limit) or saving envelopes (with a goal), with transfers between them. Cross-platform Flutter (Web, Android and Windows) with Firebase, UI in Portuguese and English. Landing page at dindin.cafelabs.net.",
+          image: "/images/giphy.gif",
+          tags: ["Flutter", "Riverpod", "Firebase"],
+          technologies: [
+            { name: "Flutter", description: "Flutter" },
+            { name: "Riverpod", description: "Riverpod" },
+            { name: "Firebase", description: "Firebase" },
+          ],
+          year: "2026",
+          link: "#",
+          github: "#",
+        },
+        {
+          id: "PJ-009",
+          title: "Laudo",
+          subtitle: "Inspection App",
+          description:
+            "Inspection app with on-device voice transcription, photos and PDF reports.",
+          detailedDescription:
+            "Flutter app (mobile + web) for an architect: she narrates what she sees per item/room and the app transcribes speech 100% on-device, attaches photos and generates the PDF report. Works offline in the field and syncs when the connection returns.",
+          image: "/images/giphy.gif",
+          tags: ["Flutter", "Firebase", "Offline-first"],
+          technologies: [
+            { name: "Flutter", description: "Flutter" },
+            { name: "Firebase", description: "Firebase" },
+            { name: "Offline-first", description: "Offline-first" },
+          ],
+          year: "2026",
+          link: "#",
+          github: "#",
+        },
+        {
+          id: "PJ-010",
+          title: "Patotive",
+          subtitle: "WhatsApp Discount Groups",
+          description:
+            "Directory and operation of exclusive WhatsApp discount groups, by product category.",
+          detailedDescription:
+            "Next.js (web + PWA) with Firebase (Auth, Firestore, Hosting), live at patotive.vercel.app. v1 covers sports and books; affiliate marketplace integration in progress.",
+          image: "/images/giphy.gif",
+          tags: ["Next.js", "PWA", "Firebase"],
+          technologies: [
+            { name: "Next.js", description: "Next.js" },
+            { name: "PWA", description: "PWA" },
+            { name: "Firebase", description: "Firebase" },
           ],
           year: "2026",
           link: "#",
