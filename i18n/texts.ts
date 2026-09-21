@@ -269,6 +269,20 @@ experience: {
         description:
           "Conclusão prevista para o 1º semestre de 2028. Foco em desenvolvimento full-stack, com projetos reais incluindo um SaaS multi-tenant em piloto.",
       },
+      {
+        period: "Mai 2026",
+        title: "AWS Academy Graduate — Cloud Foundations",
+        institution: "AWS Academy",
+        description:
+          "Training Badge de 20 horas, verificável no Credly.",
+      },
+      {
+        period: "Out 2025",
+        title: "Red Hat System Administration I (RH124)",
+        institution: "Red Hat",
+        description:
+          "Certificado de participação de 40 horas, verificável no Credly.",
+      },
     ],
 
     en: [
@@ -278,6 +292,20 @@ experience: {
         institution: "PUC Minas",
         description:
           "Expected graduation in the 1st half of 2028. Focus on full-stack development, with real projects including a multi-tenant SaaS in pilot.",
+      },
+      {
+        period: "May 2026",
+        title: "AWS Academy Graduate — Cloud Foundations",
+        institution: "AWS Academy",
+        description:
+          "20-hour training badge, verifiable on Credly.",
+      },
+      {
+        period: "Oct 2025",
+        title: "Red Hat System Administration I (RH124)",
+        institution: "Red Hat",
+        description:
+          "40-hour certificate of attendance, verifiable on Credly.",
       },
     ],
   },
