@@ -12,10 +12,10 @@ export const texts = {
       photoCredit: "Foto: Arquivo Pessoal / 2026",
 
       paragraph1:
-        "Sou estudante de Engenharia de Software (PUC Minas, 5º período) apaixonado por construir produtos full-stack reais — do modelo de dados ao deploy. Sou sócio da Café Labs e, hoje, também sou responsável pela estrutura de TI e pelo suporte da escola Rede Decisão, em Belo Horizonte.",
+        "Sou estudante de Engenharia de Software (PUC Minas, 5º período) apaixonado por construir produtos full-stack reais — do modelo de dados ao deploy. Hoje também sou responsável pela estrutura de TI e pelo suporte da escola Rede Decisão, em Belo Horizonte.",
 
       paragraph2:
-        "Trabalho com JavaScript/TypeScript, Python e Java em projetos que vão de um SaaS multi-tenant em piloto com cliente real a uma análise de rede de colaboração open-source com grafos implementados do zero. Na Café Labs entrego também apps Flutter e sistemas de gestão para clientes reais.",
+        "Trabalho com JavaScript/TypeScript, Python e Java em projetos que vão de um SaaS multi-tenant em piloto com cliente real a uma análise de rede de colaboração open-source com grafos implementados do zero. Em parceria com dois amigos, entrego também, como freelancer, apps Flutter e sistemas de gestão para clientes reais.",
 
       paragraph3:
         "Antes de migrar pra tecnologia, atuei com marketing digital e comunicação para redes sociais — uma base que ainda uso pra pensar produto do ponto de vista de quem vai usar.",
@@ -53,10 +53,10 @@ export const texts = {
       photoCredit: "Photo: Personal Archive / 2026",
 
       paragraph1:
-        "I'm a Software Engineering student (PUC Minas, 5th semester) passionate about building real full-stack products — from data model to deploy. I'm a partner at Café Labs and also responsible for the IT structure and support of the Rede Decisão school, in Belo Horizonte.",
+        "I'm a Software Engineering student (PUC Minas, 5th semester) passionate about building real full-stack products — from data model to deploy. I'm also responsible for the IT structure and support of the Rede Decisão school, in Belo Horizonte.",
 
       paragraph2:
-        "I work with JavaScript/TypeScript, Python and Java on projects ranging from a multi-tenant SaaS in pilot with a real client to an open-source collaboration network analysis with graphs implemented from scratch. At Café Labs I also ship Flutter apps and management systems for real clients.",
+        "I work with JavaScript/TypeScript, Python and Java on projects ranging from a multi-tenant SaaS in pilot with a real client to an open-source collaboration network analysis with graphs implemented from scratch. In partnership with two friends, I also ship Flutter apps and management systems for real clients as a freelancer.",
 
       paragraph3:
         "Before moving into tech, I worked in digital marketing and social media communication — a background I still draw on to think about product from the user's point of view.",
@@ -211,11 +211,11 @@ experience: {
       },
       {
         period: "Jul 2026 - Atual",
-        role: "Sócio e Desenvolvedor",
-        company: "Café Labs",
+        role: "Desenvolvedor Freelancer",
+        company: "Projetos com dois amigos",
         location: "Belo Horizonte, MG",
         description:
-          "Sócio de empresa de software: desenvolvimento full-stack e mobile de produtos próprios e de clientes — Box+, Dindin, Laudo, Patotive e Agenda Barbearia.",
+          "Projetos freelancer em parceria com dois amigos: desenvolvimento full-stack e mobile de sistemas de gestão e apps sob demanda para clientes reais — Box+, Dindin, Laudo, Patotive e Agenda Barbearia.",
         tags: ["Full-stack", "Flutter", "Next.js", "Firebase"],
       },
       {
@@ -241,11 +241,11 @@ experience: {
       },
       {
         period: "Jul 2026 - Present",
-        role: "Partner and Developer",
-        company: "Café Labs",
+        role: "Freelance Developer",
+        company: "Freelance projects with two friends",
         location: "Belo Horizonte, Brazil",
         description:
-          "Partner at a software company: full-stack and mobile development of in-house and client products — Box+, Dindin, Laudo, Patotive and Agenda Barbearia.",
+          "Freelance projects in partnership with two friends: full-stack and mobile development of on-demand management systems and apps for real clients — Box+, Dindin, Laudo, Patotive and Agenda Barbearia.",
         tags: ["Full-stack", "Flutter", "Next.js", "Firebase"],
       },
       {
@@ -519,9 +519,9 @@ footer: {
           title: "Café Labs Admin",
           subtitle: "Hub de Gestão Interna",
           description:
-            "Hub interno da Café Labs: clientes e financeiro da empresa em um só sistema.",
+            "Hub de gestão de clientes e financeiro pros projetos freelancer do grupo.",
           detailedDescription:
-            "SPA em React + Vite + TypeScript sobre Firebase (Auth com Google, Firestore e Security Rules), com exportação de leads em PDF e regras de acesso por usuário. Em produção, usado no dia a dia da empresa.",
+            "SPA em React + Vite + TypeScript sobre Firebase (Auth com Google, Firestore e Security Rules), com exportação de leads em PDF e regras de acesso por usuário. Em produção, usado no dia a dia dos projetos.",
           image: "/images/giphy.gif",
           tags: ["React", "TypeScript", "Firebase"],
           technologies: [
@@ -715,9 +715,9 @@ footer: {
           title: "Café Labs Admin",
           subtitle: "Internal Management Hub",
           description:
-            "Café Labs' internal hub: the company's clients and finances in a single system.",
+            "A clients and finances management hub for the group's freelance projects.",
           detailedDescription:
-            "React + Vite + TypeScript SPA on Firebase (Google Auth, Firestore and Security Rules), with lead PDF export and per-user access rules. In production, used day to day at the company.",
+            "React + Vite + TypeScript SPA on Firebase (Google Auth, Firestore and Security Rules), with lead PDF export and per-user access rules. In production, used day to day across the projects.",
           image: "/images/giphy.gif",
           tags: ["React", "TypeScript", "Firebase"],
           technologies: [
