@@ -219,6 +219,15 @@ experience: {
         tags: ["Full-stack", "Flutter", "Next.js", "Firebase"],
       },
       {
+        period: "Jul 2023 - Jul 2026",
+        role: "Gestor de Comunicação Digital",
+        company: "PUC Minas (Engenharia de Software)",
+        location: "Belo Horizonte, MG",
+        description:
+          "Atuação na equipe de comunicação/marketing do curso: criação de conteúdo técnico para redes sociais e engajamento da comunidade acadêmica.",
+        tags: ["Marketing", "Comunicação", "Redes Sociais"],
+      },
+      {
         period: "Jan 2024 - Ago 2024",
         role: "Estagiário de Marketing e Logística",
         company: "Spagnol Odontologia",
@@ -247,6 +256,15 @@ experience: {
         description:
           "Freelance projects in partnership with two friends: full-stack and mobile development of on-demand management systems and apps for real clients — Box+, Dindin, Laudo, Patotive and Agenda Barbearia.",
         tags: ["Full-stack", "Flutter", "Next.js", "Firebase"],
+      },
+      {
+        period: "Jul 2023 - Jul 2026",
+        role: "Digital Communications Manager",
+        company: "PUC Minas (Software Engineering)",
+        location: "Belo Horizonte, Brazil",
+        description:
+          "Member of the course's communications/marketing team: produced technical content for social media and drove academic community engagement.",
+        tags: ["Marketing", "Communications", "Social Media"],
       },
       {
         period: "Jan 2024 - Aug 2024",
