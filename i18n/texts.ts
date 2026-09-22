@@ -845,10 +845,10 @@ skills: {
         ],
       },
       {
-        title: "Ferramentas & IA",
+        title: "Ferramentas & Design",
         skills: [
           { name: "Git / GitHub", level: 90 },
-          { name: "Claude Code (IA agentic)", level: 85 },
+          { name: "Photoshop / Illustrator / Canva", level: 80 },
           { name: "Figma", level: 70 },
           { name: "Scrum", level: 75 },
         ],
@@ -875,10 +875,10 @@ skills: {
         ],
       },
       {
-        title: "Tools & AI",
+        title: "Tools & Design",
         skills: [
           { name: "Git / GitHub", level: 90 },
-          { name: "Claude Code (agentic AI)", level: 85 },
+          { name: "Photoshop / Illustrator / Canva", level: 80 },
           { name: "Figma", level: 70 },
           { name: "Scrum", level: 75 },
         ],
@@ -890,7 +890,7 @@ skills: {
     "React", "Next.js", "TypeScript", "JavaScript", "Python",
     "Java", "Spring Boot", "Node.js", "Supabase", "PostgreSQL",
     "MySQL", "Prisma", "FastAPI", "Tailwind CSS", "Vite",
-    "Git", "GitHub", "Figma", "Claude Code",
+    "Git", "GitHub", "Figma", "Photoshop", "Illustrator", "Canva",
   ],
 },
 }
