@@ -215,7 +215,7 @@ experience: {
         company: "Projetos com dois amigos",
         location: "Belo Horizonte, MG",
         description:
-          "Projetos freelancer em parceria com dois amigos: desenvolvimento full-stack e mobile de sistemas de gestão e apps sob demanda para clientes reais — Box+, Dindin, Laudo, Patotive e Agenda Barbearia.",
+          "Projetos freelancer em parceria com dois amigos: desenvolvimento full-stack e mobile de sistemas de gestão e apps sob demanda para clientes reais — Box+, Dindin, Laudo, Patetive e Agenda Barbearia.",
         tags: ["Full-stack", "Flutter", "Next.js", "Firebase"],
       },
       {
@@ -254,7 +254,7 @@ experience: {
         company: "Freelance projects with two friends",
         location: "Belo Horizonte, Brazil",
         description:
-          "Freelance projects in partnership with two friends: full-stack and mobile development of on-demand management systems and apps for real clients — Box+, Dindin, Laudo, Patotive and Agenda Barbearia.",
+          "Freelance projects in partnership with two friends: full-stack and mobile development of on-demand management systems and apps for real clients — Box+, Dindin, Laudo, Patetive and Agenda Barbearia.",
         tags: ["Full-stack", "Flutter", "Next.js", "Firebase"],
       },
       {
@@ -591,7 +591,7 @@ footer: {
         },
         {
           id: "PJ-010",
-          title: "Patotive",
+          title: "Patetive",
           subtitle: "Grupos de Desconto no WhatsApp",
           description:
             "Diretório e operação de grupos exclusivos de desconto no WhatsApp, por categoria de produto.",
@@ -787,7 +787,7 @@ footer: {
         },
         {
           id: "PJ-010",
-          title: "Patotive",
+          title: "Patetive",
           subtitle: "WhatsApp Discount Groups",
           description:
             "Directory and operation of exclusive WhatsApp discount groups, by product category.",
