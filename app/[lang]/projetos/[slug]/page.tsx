@@ -32,6 +32,7 @@ export default async function ProjectRoute({ params }: { params: Params }) {
       lang={lang}
       t={dictionaries[lang]}
       project={projects[i]}
+      index={i}
       prev={projects[(i + n - 1) % n]}
       next={projects[(i + 1) % n]}
     />
