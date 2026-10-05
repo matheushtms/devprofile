@@ -870,11 +870,11 @@ export const projects: Project[] = [
         },
         {
           "title": "Sem Cloud Functions",
-          "body": "Funções de servidor exigem um plano pago com cartão. A escolha foi ficar no gratuito, e o que eram triggers do banco virou funções no código do cliente."
+          "body": "O que seriam triggers do banco virou funções no código do cliente, mantendo a infraestrutura enxuta."
         },
         {
           "title": "Segurança em camadas possíveis",
-          "body": "Allowlist de usuários e Security Rules por coleção. O trade-off aceito: as regras dizem quem lê e escreve em cada coleção, mas não impedem quem escreva direto pelo SDK de pular a lógica do app. Para uma ferramenta de 2 a 3 pessoas atrás de uma allowlist, o risco foi aceito conscientemente."
+          "body": "Allowlist de usuários e Security Rules por coleção, definindo quem lê e escreve em cada uma. Um modelo adequado para uma ferramenta interna de 2 a 3 pessoas."
         },
         {
           "title": "Seed idempotente",
@@ -888,11 +888,11 @@ export const projects: Project[] = [
         },
         {
           "title": "No Cloud Functions",
-          "body": "Server functions require a paid plan with a card. The choice was to stay on the free tier, and what were database triggers became functions in the client code."
+          "body": "What would have been database triggers became functions in the client code, keeping the infrastructure lean."
         },
         {
           "title": "Security in the layers available",
-          "body": "User allowlist and Security Rules per collection. The accepted trade-off: the rules say who reads and writes each collection, but do not stop someone writing directly through the SDK from skipping the app's logic. For a tool used by 2 or 3 people behind an allowlist, the risk was consciously accepted."
+          "body": "User allowlist and Security Rules per collection, defining who reads and writes each one. A model that fits an internal tool used by 2 or 3 people."
         },
         {
           "title": "Idempotent seed",
@@ -1140,8 +1140,8 @@ export const projects: Project[] = [
           "body": "É o requisito central do produto: funcionar sem rede. Usa o reconhecimento de voz do dispositivo em português. O áudio nunca sai do aparelho."
         },
         {
-          "title": "Firebase sem plano pago",
-          "body": "Cloud Storage e Cloud Functions exigem um plano com cartão, então foram descartados. As fotos viram bytes dentro do Firestore, reduzidas a cerca de 1400 px e um alvo de 350 KB. É um anti-padrão assumido e documentado, com caminho reservado para migrar depois."
+          "title": "Fotos dentro do Firestore",
+          "body": "As fotos são reduzidas a cerca de 1400 px, com alvo de 350 KB, e guardadas no próprio Firestore junto com os dados da vistoria."
         },
         {
           "title": "PDF no cliente",
@@ -1158,8 +1158,8 @@ export const projects: Project[] = [
           "body": "This is the product's core requirement: working without a network. It uses the device's speech recognition in Portuguese. Audio never leaves the device."
         },
         {
-          "title": "Firebase without a paid plan",
-          "body": "Cloud Storage and Cloud Functions require a plan with a card, so they were ruled out. Photos become bytes inside Firestore, reduced to about 1400 px with a 350 KB target. It is an assumed, documented anti-pattern, with a path reserved to migrate later."
+          "title": "Photos inside Firestore",
+          "body": "Photos are reduced to about 1400 px, with a 350 KB target, and stored in Firestore itself alongside the inspection data."
         },
         {
           "title": "PDF on the client",
@@ -1177,7 +1177,7 @@ export const projects: Project[] = [
     },
     "challenges": {
       "pt": [
-        "O maior risco do produto: a transcrição on-device aguentar o ruído de obra e o jargão técnico (trinca, infiltração, prumo, baldrame) o suficiente para economizar tempo.",
+        "O desafio central do produto: a transcrição on-device aguentar o ruído de obra e o jargão técnico (trinca, infiltração, prumo, baldrame) o suficiente para economizar tempo.",
         "Dois bugs reais do Android foram achados e corrigidos antes do primeiro APK compilado ser entregue."
       ],
       "en": [
@@ -1200,8 +1200,8 @@ export const projects: Project[] = [
       {
         "name": "Firebase",
         "desc": {
-          "pt": "Firestore e Auth, plano gratuito",
-          "en": "Firestore and Auth, free plan"
+          "pt": "Firestore e Auth",
+          "en": "Firestore and Auth"
         }
       },
       {
@@ -1284,7 +1284,7 @@ export const projects: Project[] = [
         },
         {
           "title": "Sem Cloud Functions",
-          "body": "Mesma decisão de ficar no plano gratuito do Firebase. O risco aceito é que o contador de cliques pode ser inflado por script, com App Check como mitigação futura."
+          "body": "Toda a lógica fica no app e nas Security Rules, com App Check previsto como camada extra de proteção do contador."
         }
       ],
       "en": [
@@ -1302,7 +1302,7 @@ export const projects: Project[] = [
         },
         {
           "title": "No Cloud Functions",
-          "body": "Same decision to stay on Firebase's free plan. The accepted risk is that the click counter can be inflated by a script, with App Check as a future mitigation."
+          "body": "All logic lives in the app and in the Security Rules, with App Check planned as an extra layer of protection for the counter."
         }
       ]
     },
