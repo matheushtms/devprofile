@@ -1,11 +1,13 @@
-import { Bricolage_Grotesque, Geist, Geist_Mono } from "next/font/google"
+import { Anton, Barlow, Oswald, Rye } from "next/font/google"
 
-export const fontDisplay = Bricolage_Grotesque({
+// Títulos de cartaz, rótulos, texto corrido e a fonte de cartaz (usada só no "PROCURA-SE").
+export const fontTitle = Anton({ subsets: ["latin"], weight: "400", variable: "--font-anton", display: "swap" })
+export const fontLabel = Oswald({ subsets: ["latin"], weight: ["400", "500", "600"], variable: "--font-oswald", display: "swap" })
+export const fontBody = Barlow({
   subsets: ["latin"],
-  weight: "variable",
-  axes: ["opsz"],
-  variable: "--f-display",
+  weight: ["400", "500", "600"],
+  style: ["normal", "italic"],
+  variable: "--font-barlow",
   display: "swap",
 })
-export const fontBody = Geist({ subsets: ["latin"], variable: "--f-body", display: "swap" })
-export const fontMono = Geist_Mono({ subsets: ["latin"], variable: "--f-mono", display: "swap" })
+export const fontPoster = Rye({ subsets: ["latin"], weight: "400", variable: "--font-rye", display: "swap" })
