@@ -11,13 +11,13 @@ export const CONTACT = {
 
 export const meta: Record<Lang, { title: string; description: string; locale: string }> = {
   pt: {
-    title: "Matheus Malta | Engenheiro de Software",
+    title: "Matheus Malta | Engenharia de Software, full-stack e mobile",
     description:
       "Portfólio de Matheus Malta, estudante de Engenharia de Software na PUC Minas: produtos full-stack e mobile, do modelo de dados ao deploy.",
     locale: "pt_BR",
   },
   en: {
-    title: "Matheus Malta | Software Engineer",
+    title: "Matheus Malta | Software Engineering, full-stack and mobile",
     description:
       "Portfolio of Matheus Malta, Software Engineering student at PUC Minas: full-stack and mobile products, from data model to deploy.",
     locale: "en_US",

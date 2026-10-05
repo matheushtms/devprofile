@@ -3,7 +3,7 @@ import "../globals.css"
 
 export const metadata: Metadata = {
   title: "Matheus Malta | Portfólio",
-  description: "Portfólio de Matheus Malta, Engenheiro de Software.",
+  description: "Portfólio de Matheus Malta, estudante de Engenharia de Software na PUC Minas.",
 }
 
 // Layout raiz só da página "/" (redireciona para /pt ou /en).

@@ -52,7 +52,7 @@ nav.main a:hover{color:var(--fg);background:var(--surface-2)}
 .tools{display:flex;gap:var(--s2);align-items:center}
 .seg{display:flex;border:1px solid var(--line);border-radius:var(--r-pill);padding:3px;background:var(--surface)}
 .seg a{border:0;background:none;padding:6px 12px;border-radius:var(--r-pill);font-family:var(--font-mono);font-size:.78rem;min-height:38px;min-width:44px;color:var(--muted)}
-.seg a[aria-pressed="true"]{background:var(--fg);color:var(--bg)}
+.seg a[aria-pressed="true"],.seg a[aria-current="true"],.seg a[aria-current="page"]{background:var(--fg);color:var(--bg)}
 .iconbtn{width:44px;height:44px;border-radius:50%;border:1px solid var(--line);background:var(--surface);display:grid;place-items:center;transition:transform var(--t-ui) var(--ease),background var(--t-micro)}
 .iconbtn:hover{background:var(--surface-2)}
 .iconbtn:active{transform:scale(.92)}
