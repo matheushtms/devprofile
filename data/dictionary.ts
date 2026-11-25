@@ -143,6 +143,17 @@ export const dictionaries: Record<Lang, Dictionary> = {
     "themeD": "Mudar para tema escuro",
     "experience": [
       {
+        "period": "Nov 2026 - Atual",
+        "role": "Analista de Marketing Jr",
+        "org": "Grupo Fácil",
+        "text": "Produção de peças para redes sociais (posts, stories, carrosséis e vídeos) para a empresa e seus clientes, com motion design e vídeo em código seguindo manuais de marca.",
+        "tags": [
+          "Marketing Digital",
+          "Motion Design",
+          "Social Media"
+        ]
+      },
+      {
         "period": "Mar 2026 - Atual",
         "role": "Suporte de TI",
         "org": "Rede Decisão",
@@ -347,6 +358,17 @@ export const dictionaries: Record<Lang, Dictionary> = {
     "themeL": "Switch to light theme",
     "themeD": "Switch to dark theme",
     "experience": [
+      {
+        "period": "Nov 2026 - Present",
+        "role": "Junior Marketing Analyst",
+        "org": "Grupo Fácil",
+        "text": "Production of social media pieces (posts, stories, carousels and videos) for the company and its clients, with motion design and video built in code following brand manuals.",
+        "tags": [
+          "Digital Marketing",
+          "Motion Design",
+          "Social Media"
+        ]
+      },
       {
         "period": "Mar 2026 - Present",
         "role": "IT Support",
