@@ -1344,6 +1344,130 @@ export const projects: Project[] = [
         "url": "https://patotive.vercel.app"
       }
     ]
+  },
+  {
+    "slug": "marcenaria-gestao",
+    "name": "Gestão para Marcenaria",
+    "hue": 40,
+    "year": "2026",
+    "origin": "freela",
+    "platforms": [
+      "web"
+    ],
+    "stack": [
+      "React",
+      "Firebase"
+    ],
+    "image": null,
+    "subtitle": {
+      "pt": "Sistema de gestão para marcenaria de planejados",
+      "en": "Management system for a custom-furniture workshop"
+    },
+    "status": {
+      "pt": "Em desenvolvimento",
+      "en": "In development"
+    },
+    "summary": {
+      "pt": "Sistema multi-tenant para uma marcenaria de móveis planejados: painel interno com fila de produção e portal para o cliente acompanhar o próprio pedido, sobre Firebase sem custo de infraestrutura.",
+      "en": "Multi-tenant system for a custom-furniture workshop: internal panel with a production queue and a portal for clients to follow their own order, on Firebase with zero infrastructure cost."
+    },
+    "context": {
+      "pt": [
+        "Marcenaria que está começando como empresa e não tinha nenhum sistema. Os usuários são dois: a equipe interna (dono, atendimento e produção) e os clientes finais, que entram por convite para acompanhar o pedido. O escopo foi faseado: cadastro de clientes, fila de produção, data de entrega e portal na Fase 1; financeiro e estoque depois."
+      ],
+      "en": [
+        "A workshop just starting as a company, with no system at all. There are two kinds of users: the internal team (owner, front desk and production) and end clients, who join by invitation to follow their order. Scope was phased: client records, production queue, delivery date and portal in Phase 1; finance and stock later."
+      ]
+    },
+    "features": {
+      "pt": [
+        "Cadastro de clientes e pedidos, com fila de produção em quadro por etapas.",
+        "Data de entrega prevista e aviso de pedido pronto.",
+        "Portal do cliente só por convite (link mágico por e-mail), sem auto-cadastro público.",
+        "Três papéis no painel: dono, atendimento e produção, com dados sensíveis do cliente fora do alcance da produção.",
+        "Nota interna ou visível ao cliente, no mesmo modelo de dado."
+      ],
+      "en": [
+        "Client and order records, with a production queue as a stage board.",
+        "Expected delivery date and an order-ready notice.",
+        "Client portal by invitation only (e-mail magic link), no public sign-up.",
+        "Three roles in the panel: owner, front desk and production, with sensitive client data out of production's reach.",
+        "Internal note or client-visible note, on the same data model."
+      ]
+    },
+    "decisions": {
+      "pt": [
+        {
+          "title": "Firebase no plano gratuito",
+          "body": "Restrição de custo zero: nada de Cloud Functions nem Storage. Por isso o frontend é uma SPA estática em Vite + React + TypeScript, e não Next.js, que exigiria servidor."
+        },
+        {
+          "title": "Isolamento por tenant nas regras",
+          "body": "Dados em subcoleções por tenant, com Security Rules que impedem um tenant de ler outro. Como regra é por documento e não por campo, o telefone do cliente mora só na coleção de clientes."
+        },
+        {
+          "title": "Convite em vez de claims",
+          "body": "A equipe cria o convite e o convidado entra por link mágico; o vínculo ao tenant vem do documento do convite, sem servidor."
+        },
+        {
+          "title": "Quadro por clique",
+          "body": "Mover pedido entre etapas é por clique, não arrastar, pensando em equipe pouco familiarizada com sistemas digitais."
+        }
+      ],
+      "en": [
+        {
+          "title": "Firebase on the free plan",
+          "body": "Zero-cost constraint: no Cloud Functions or Storage. So the frontend is a static Vite + React + TypeScript SPA, not Next.js, which would need a server."
+        },
+        {
+          "title": "Tenant isolation in the rules",
+          "body": "Data in per-tenant subcollections, with Security Rules that stop one tenant from reading another. Since rules are per document, not per field, the client's phone lives only in the clients collection."
+        },
+        {
+          "title": "Invitation instead of claims",
+          "body": "The team creates the invite and the guest joins by magic link; the tenant link comes from the invite document, with no server."
+        },
+        {
+          "title": "Click-based board",
+          "body": "Moving an order between stages is a click, not a drag, thinking of a team not used to digital systems."
+        }
+      ]
+    },
+    "architecture": {
+      "pt": "Vite + React + TypeScript como SPA estática no Firebase Hosting, com Auth (link de e-mail) e Firestore multi-tenant. Banco criado na região de São Paulo. Scripts administrativos de onboarding, exportação e exclusão de dados (LGPD) com credencial do gcloud, sem chave baixada.",
+      "en": "Vite + React + TypeScript as a static SPA on Firebase Hosting, with Auth (e-mail link) and multi-tenant Firestore. Database created in the São Paulo region. Admin scripts for onboarding, data export and deletion (LGPD) using gcloud credentials, no downloaded key."
+    },
+    "challenges": {
+      "pt": [
+        "Garantir isolamento entre tenants e limites de papel sem servidor: 120 testes das Security Rules rodam no CI, e foi o CI que achou duas regras de atualização sem condição.",
+        "Cliente sem escopo definido: o sistema foi faseado e cortado até caber em poucas semanas."
+      ],
+      "en": [
+        "Guaranteeing tenant isolation and role limits with no server: 120 Security Rules tests run in CI, and CI is what caught two update rules with no condition.",
+        "A client with no defined scope: the system was phased and trimmed to fit a few weeks."
+      ]
+    },
+    "role": {
+      "pt": "Desenvolvimento full-stack, em parceria com dois amigos.",
+      "en": "Full-stack development, in partnership with two friends."
+    },
+    "techs": [
+      {
+        "name": "React + Vite",
+        "desc": {
+          "pt": "SPA em TypeScript",
+          "en": "TypeScript SPA"
+        }
+      },
+      {
+        "name": "Firebase",
+        "desc": {
+          "pt": "Auth, Firestore e Hosting",
+          "en": "Auth, Firestore and Hosting"
+        }
+      }
+    ],
+    "links": []
   }
 ]
 
